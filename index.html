@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">My Portfolio</div>
+
+    <nav id="navMenu">
+      <a href="index.html" class="active">About</a>
+      <a href="activities.html">Activities</a>
+    </nav>
+
+    <button class="menu-btn" type="button" aria-label="Open navigation menu" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="label">Hello, I am</p>
+        <h1>Your Name</h1>
+        <h2>Student / Developer / Designer</h2>
+        <p>
+          I am passionate about web development, creative design, and building
+          simple but useful digital experiences. This portfolio introduces who I
+          am and the activities I have worked on.
+        </p>
+
+        <div class="button-group">
+          <a href="activities.html" class="btn primary">View Activities</a>
+          <a href="mailto:your@email.com" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="avatar">YN</div>
+        <h3>Your Name</h3>
+        <p>Frontend Learner</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>About Me</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Education</h3>
+          <p>I am currently studying computer science and web development.</p>
+        </div>
+
+        <div class="card">
+          <h3>Skills</h3>
+          <p>HTML, CSS, JavaScript, UI design, responsive layout.</p>
+        </div>
+
+        <div class="card">
+          <h3>Goal</h3>
+          <p>My goal is to create clean, helpful, and user-friendly websites.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
