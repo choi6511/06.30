@@ -18,7 +18,7 @@ if (contactForm) {
     responseDiv.style.color = "#1976d2";
     responseDiv.innerText = "AI \uC5D0\uC774\uC804\uD2B8\uAC00 \uC9C8\uBB38\uC744 \uBD84\uC11D \uC911\uC785\uB2C8\uB2E4... \uC7A0\uC2DC\uB9CC \uAE30\uB2E4\uB824\uC8FC\uC138\uC694.";
 
-    const makeWebhookUrl = "https://hook.eu1.make.com/rd4amt948q6q6tcq6jvbw9ldzttxvzwp@hook.eu1.make.com";
+    const makeWebhookUrl = "https://hook.eu1.make.com/rd4amt948q6q6tcq6jvbw9ldzttxvzwp";
 
     try {
       const response = await fetch(makeWebhookUrl, {
